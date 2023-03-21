@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{  
+    background:url('https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1461&q=80') ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    backface-visibility: hidden;
+    
+    overflow: hidden;
+    height:  100vh;
+    font-family: 'popins',sans-serif;
+}
+
+.container{
+    padding: 20px 70px;
+    color: aliceblue;
+    
+    
+
+}
+#currentweather{
+    padding: 40px;
+    
+
+}
+.current{
+    color: black;
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.future{
+    
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+    color:black;
+    
+    
+    
+    padding: 0px;
+    
+    
+}
+
+.weatherdetails{
+    font-size: 40px;
+}
+.nextfivedays{
+    color:black;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.day{
+    font-size:40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    border: 0px solid rgb(5, 5, 5);
+    background: rgba(182, 182, 182, 0.433);
+    border-radius: 10px;
+    padding: 50px 40px;
+    justify-content: space-between;
+
+}
+#tempitem{
+    font-size: 30px;
+}
+
+.temp{
+    font-size: 40px;
+    
+  display: flex;
+  justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.tempday1{
+    font-size: 50px;;
+}
+.tempday2{
+    font-size: 50px;;
+}
+.tempday3{
+    font-size: 50px;
+}
+.tempday4{
+    font-size: 50px;;
+}
+.tempday5{
+    font-size: 50px;;
+}
+.location input{
+          width: 200px;
+          height: 40px;
+          font-size: 20px;
+}
+
+
+
+
+
+
